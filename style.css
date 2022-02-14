@@ -1,0 +1,244 @@
+html{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   overflow: scroll;
+}
+.header{
+    background-image: url("blurred\ \(1\).png");
+ background-blend-mode:lighten;
+background-position: center center ;
+background-repeat: no-repeat;
+background-size: cover;
+height: 800px;
+max-width: 100%;
+background-attachment:scroll;
+background-position-x: right center;
+background-color: rgb(22, 19, 19);
+    padding: 20px;
+   
+   
+}
+.title{
+    
+text-align: center;
+letter-spacing: 25px;
+color: rgba(246, 251, 255, 0.966);
+  font-size: 100px;
+  font-family: 'Libre Baskerville', serif;
+ position: relative;
+ top: 4rem;
+}
+.subtitle{
+    color: rgba(240, 248, 255, 0.685);
+    font-family: 'Libre Baskerville', serif;
+    position: relative;
+    top: 10rem;
+    padding: 10px;
+    text-align: center;
+    font-size: 65px;
+}
+    
+.offers{
+    color: rgba(240, 248, 255, 0.836);
+    font-family: 'Libre Baskerville', serif;
+    position: relative;
+    top: 11rem;
+    right: 5px;
+    text-align: center;
+    font-size: x-large;
+}
+
+    .browse{
+  display: block;
+  margin: 0 auto;
+  margin-top: 24rem;
+   
+        height: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:25px;
+    }
+.Collection{
+width: 300px;
+    }
+.games{
+    display: grid;
+    grid-column: auto;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+.category{
+    font-size: larger;
+    text-decoration: underline;
+}
+.latest-games{
+    padding-top: 6px;
+    text-align: center;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    text-decoration:solid;
+}
+.game-name{
+    font-size: large;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.game-image{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.game-price{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+}
+.name-game-link{
+    text-decoration: none;
+    color: black;
+
+}
+.back-to-top{
+    font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+.about-us{
+  
+    display:flex;
+    justify-content: space-around;
+   
+    font-size: large;
+    background-color: rgb(60, 67, 88);
+    color: aliceblue;
+    padding: 2rem;
+    
+}
+.amazon-payment{
+    margin-left: 1rem;
+}
+.link-about-us{
+    color: aliceblue;
+    text-decoration: none;
+}
+.bold-text{
+    font: bolder;
+    text-decoration: underline;
+    margin-bottom: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.label{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    font-size: larger;
+    padding: 10px;
+    padding-right: 7px;
+   
+}
+.footer-label{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    padding-bottom: 5px;
+}
+.language-button{
+    padding: 2px;
+    
+}
+.hover-class{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.Collection.hover-class:hover{
+    color: black;
+}
+
+.choose{
+    display: block;
+   margin:0 50%;
+  border-color: rgb(0, 0, 0);
+border-radius: 20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.choose:hover{
+    background-color: rgb(148, 230, 148);
+}
+
+
+@media(max-width:1024px){
+  .title{  
+      text-align: center;
+    letter-spacing: 25px;
+font-size: 50px; }
+.subtitle{
+    font-size: 50px; 
+    text-align: center;
+}
+}
+@media(max-width:515px){
+    .title{
+        text-align: center;
+        font: 30px;
+        letter-spacing: 10px;
+
+    }
+    .subtitle{
+        font-size: 25px; 
+    text-align: center; 
+    }
+    .offers{
+        font-size: 25px; 
+    text-align: center; 
+    }
+}
+@media(max-width:400px){
+    .title{
+        text-align: center;
+        font: 30px;
+        letter-spacing: 8px;
+       
+    }
+    .browse{
+      margin-top: 20rem;
+      
+      
+    }
+    .about-us{
+        display: none;
+    }
+}
+@media(max-width:570px){
+    .about-us{
+        display: none;
+    }
+}
+
+
+@media(max-width:345px){
+    .title{
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 5px;
+        
+    }
+    .subtitle{
+        font-size: 20px; 
+    text-align: center; 
+    }
+    .offers{
+        font-size: 25px; 
+    text-align: center; 
+    }
+    .Collection{
+        width: 100%;
+    }
+    
+}
